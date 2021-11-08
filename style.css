@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 100vw;
+    padding: 10px;
+}
+
+.inputs{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.inputs button, input{
+    margin: 4px;
+    width: 40vw;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper h1{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.textarea {
+    margin: 5vh auto;
+    width: 50%;
+    padding: 10px;
+}
