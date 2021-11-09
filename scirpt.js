@@ -102,21 +102,51 @@ function updatemadlib() {
     new_num = document.getElementById("new_num").value;
     new_pnoun1 = document.getElementById("new_pnoun1").value;
 
-    if(new_adj1){adj1 = new_adj1;}
-    if(new_adj2){adj2 = new_adj2;}
-    if(new_adj3){adj3 = new_adj3;}
-    if(new_adj4){adj4 = new_adj4;}
-    if(new_adj5){adj5 = new_adj5;}
-    if(new_adj6){adj6 = new_adj6;}
-    if(new_adverb){adverb = new_adverb;}
-    if(new_color){color = new_color;}
-    if(new_noun1){noun1 = new_noun1;}
-    if(new_noun2){noun2 = new_noun2;}
-    if(new_noun3){noun3 = new_noun3;}
-    if(new_noun4){noun4 = new_noun4;}
-    if(new_noun5){noun5 = new_noun5;}
-    if(new_noun6){noun6 = new_noun6;}
-    if(new_pnoun1){pnoun1 = new_pnoun1;}
+    if (new_adj1) {
+        adj1 = new_adj1;
+    }
+    if (new_adj2) {
+        adj2 = new_adj2;
+    }
+    if (new_adj3) {
+        adj3 = new_adj3;
+    }
+    if (new_adj4) {
+        adj4 = new_adj4;
+    }
+    if (new_adj5) {
+        adj5 = new_adj5;
+    }
+    if (new_adj6) {
+        adj6 = new_adj6;
+    }
+    if (new_adverb) {
+        adverb = new_adverb;
+    }
+    if (new_color) {
+        color = new_color;
+    }
+    if (new_noun1) {
+        noun1 = new_noun1;
+    }
+    if (new_noun2) {
+        noun2 = new_noun2;
+    }
+    if (new_noun3) {
+        noun3 = new_noun3;
+    }
+    if (new_noun4) {
+        noun4 = new_noun4;
+    }
+    if (new_noun5) {
+        noun5 = new_noun5;
+    }
+    if (new_noun6) {
+        noun6 = new_noun6;
+    }
+    if (new_pnoun1) {
+        pnoun1 = new_pnoun1;
+    }
 
     let story = `It has often been said that a dog is a man's best ${noun1}. Dogs are very ${adj1} and can be taught many ${adj2}
     tricks. A dog can be trained to carry a ${noun2} in his mouth.
@@ -128,6 +158,6 @@ function updatemadlib() {
     dispositions and live to be ${num} years old. Other popular dogs
     are ${adj5} Terriers, German ${pnoun1}, and the
     ${adj6} Poodle. Every ${noun6} should have a loyal dog.`;
-    
+
     document.getElementById("madlib").innerHTML = story;
 };

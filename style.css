@@ -1,7 +1,7 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     padding: 10px;
 }
 
-.inputs{
+.inputs {
     margin: 30px;
     display: flex;
     justify-content: space-around;
@@ -19,16 +19,17 @@ body {
     align-content: space-evenly;
 }
 
-.inputs button, input{
+.inputs button,
+input {
     margin: 4px;
     width: 40vw;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
 }
 
-.wrapper h1{
+.wrapper h1 {
     margin: auto;
     width: 50%;
     padding: 10px;
